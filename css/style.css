@@ -253,14 +253,14 @@ h6 {
   content: "\f105";
 }
 
-/* Nav Meu Container */
+/* Nav Menu Container */
 
 #nav-menu-container {
   float: right;
   margin: 0;
 }
 
-/* Nav Meu Styling */
+/* Nav Menu Styling */
 
 .nav-menu a {
   padding: 8px;
@@ -817,7 +817,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .nav-tabs li {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 #schedule .nav-tabs a {
