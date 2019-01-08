@@ -102,7 +102,7 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
-.section-header {
+.section-header, #speakers .learn-more {
   margin-bottom: 60px;
   position: relative;
   padding-bottom: 20px;
@@ -127,7 +127,7 @@ h6 {
   margin-bottom: 10px;
 }
 
-.section-header p {
+.section-header p, #speakers .learn-more p {
   text-align: center;
   padding: 0;
   margin: 0;
@@ -604,7 +604,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
 }
 
-#intro .about-btn {
+#intro .about-btn, #speakers .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -621,7 +621,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #f82249;
 }
 
-#intro .about-btn:hover {
+#speakers .about-btn {
+  color: #f82249;
+}
+
+#intro .about-btn:hover, #speakers .about-btn:hover {
   background: #f82249;
   color: #fff;
 }
