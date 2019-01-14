@@ -1221,6 +1221,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets {
   padding: 60px 0;
+
 }
 
 #buy-tickets .card {
@@ -1228,6 +1229,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 5px;
   transition: all  0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+
 }
 
 #buy-tickets .card:hover {
@@ -1252,6 +1254,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets .card ul li {
   margin-bottom: 20px;
+
 }
 
 #buy-tickets .card .text-muted {
@@ -1291,6 +1294,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #e0072f;
 }
 
+#buy-tickets #tickets-details {
+  margin-top: 60px;
+  text-align: justify;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9195a2;
+}
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
