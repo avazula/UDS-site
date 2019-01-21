@@ -102,14 +102,15 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
-.section-header, #speakers .learn-more {
+.section-header,
+#speakers .learn-more {
   margin-bottom: 60px;
   position: relative;
   padding-bottom: 20px;
 }
 
 .section-header::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 60px;
@@ -127,7 +128,8 @@ h6 {
   margin-bottom: 10px;
 }
 
-.section-header p, #speakers .learn-more p {
+.section-header p,
+#speakers .learn-more p {
   text-align: center;
   padding: 0;
   margin: 0;
@@ -542,7 +544,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -558,7 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -587,7 +589,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -605,7 +607,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
 }
 
-#intro .about-btn, #speakers .about-btn {
+#intro .about-btn,
+#speakers .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -626,7 +629,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #f82249;
 }
 
-#intro .about-btn:hover, #speakers .about-btn:hover {
+#intro .about-btn:hover,
+#speakers .about-btn:hover {
   background: #f82249;
   color: #fff;
 }
@@ -715,7 +719,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 500;
   /* color: #9195a2; */
   color: #717582;
-
 }
 
 #speakers {
@@ -854,7 +857,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .tab-pane {
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
 }
 
 #schedule .schedule-item {
@@ -1111,6 +1114,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 160px;
+  font-size: 2em;
+  text-align: center;
 }
 
 #sponsors .sponsor-logo:hover img {
@@ -1233,15 +1238,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets {
   padding: 60px 0;
-
 }
 
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
-
 }
 
 #buy-tickets .card:hover {
@@ -1266,7 +1269,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets .card ul li {
   margin-bottom: 20px;
-
 }
 
 #buy-tickets .card .text-muted {
@@ -1314,7 +1316,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 500;
   /* color: #9195a2; */
   color: #717582;
-
 }
 /*--------------------------------------------------------------
 # Contact Section
