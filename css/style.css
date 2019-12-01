@@ -9,6 +9,7 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
   background: #fff;
   color: #2f3138;
@@ -16,7 +17,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #f3882a;
   transition: 0.5s;
 }
 
@@ -39,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif, med;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -72,7 +73,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #f3882a;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -114,7 +115,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #f3882a;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -169,14 +170,14 @@ h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", thin;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
 #header #logo h1 span {
-  /* color: #f82249; */
+  /* color: #f3882a; */
   color: #a9cde4;
 }
 
@@ -267,8 +268,9 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  /* color: rgba(202, 206, 221, 0.8); */
+  color: #875426;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
   outline: none;
@@ -290,8 +292,8 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  /* background-color: #f82249; */
-  background-color: #a9cde4;
+  /* background-color: #f3882a; */
+  background-color: #f3882a;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -305,12 +307,12 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  /* background: #f82249; */
-  background: #f82249;
+  /* background: #f3882a; */
+  background: #f3882a;
   padding: 7px 22px;
   border-radius: 50px;
-  /* border: 2px solid #f82249; */
-  border: 2px solid #f82249;
+  /* border: 2px solid #f3882a; */
+  border: 2px solid #f3882a;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -351,7 +353,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f82249;
+  background: #f3882a;
   color: #fff;
 }
 
@@ -418,7 +420,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #mobile-nav ul li li {
@@ -435,11 +437,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #mobile-body-overly {
@@ -474,7 +476,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro_bg_compressed.jpg) top center;
+  background: url(../img/background-2.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -482,7 +484,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.3);
+  /*Darkening layer on background image*/
+  /* background: rgba(6, 12, 34, 0.3); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -514,19 +517,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 {
-  color: #fff;
-  font-family: "Raleway", sans-serif;
+  color: #875426;
+
+  font-family: "Montserrat", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 #intro h1 span {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #intro p {
-  color: #ebebeb;
+  color: #875426;
   font-weight: 700;
   font-size: 20px;
 }
@@ -534,7 +538,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#f3882a 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -581,7 +585,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #f3882a;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -598,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
+  border-left: 15px solid #875426;
   z-index: 200;
   -webkit-animation: none;
   animation: none;
@@ -606,7 +610,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn, #speakers .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -616,18 +620,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #875426;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #f3882a;
 }
 
 #speakers .about-btn {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #intro .about-btn:hover, #speakers .about-btn:hover {
-  background: #f82249;
+  background: #f3882a;
   color: #fff;
 }
 
@@ -762,7 +766,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #speakers .speaker:hover .details {
@@ -797,7 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: #f3882a;
   color: #fff;
 }
 
@@ -842,7 +846,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: #f3882a;
   color: #fff;
 }
 
@@ -1015,7 +1019,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels a:hover {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #hotels .stars {
@@ -1065,7 +1069,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .owl-dot.active {
-  background-color: #f82249;
+  background-color: #f3882a;
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
@@ -1073,7 +1077,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid #f82249;
+  border: 6px solid #f3882a;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -1143,7 +1147,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
@@ -1162,7 +1166,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #faq #faq-list a.collapsed {
@@ -1215,7 +1219,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #f82249;
+  background: #f3882a;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1224,7 +1228,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #f3882a;
 }
 
 /*--------------------------------------------------------------
@@ -1278,13 +1282,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #f3882a;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #f3882a;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1297,13 +1301,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #f3882a;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #f3882a;
 }
 
 #buy-tickets #tickets-details {
@@ -1333,7 +1337,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #f82249;
+  color: #f3882a;
 }
 
 #contact .contact-info address,
@@ -1355,7 +1359,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #contact .contact-address,
@@ -1365,8 +1369,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #f82249;
-  border: 1px solid #f82249;
+  color: #f3882a;
+  border: 1px solid #f3882a;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1407,7 +1411,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #f82249;
+  background: #f3882a;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1479,7 +1483,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: #f3882a;
   color: #fff;
 }
 
@@ -1490,7 +1494,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  border-bottom: 2px solid #f3882a;
 }
 
 #footer .footer-top .footer-links {
@@ -1505,7 +1509,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f82249;
+  color: #f3882a;
   font-size: 18px;
 }
 
@@ -1523,7 +1527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f82249;
+  color: #f3882a;
 }
 
 #footer .footer-top .footer-contact {
@@ -1545,7 +1549,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #f82249;
+  background: #f3882a;
   border: 0;
   width: 35%;
   padding: 6px 0;
