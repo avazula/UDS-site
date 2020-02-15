@@ -8,15 +8,15 @@
 // On regarde à quelle destinataire envoyer le mail en fonction de la catégorie
 if(isset($_POST['category'])){
         if($_POST['category'] == 'prog')
-            $destinataire = 'programmation@undessens.fr';
+            $destinataire = 'buro@undessens.fr';
         else if($_POST['category'] == 'comm')
-            $destinataire = 'communication@undessens.fr';
+            $destinataire = 'buro@undessens.fr';
         else if($_POST['category'] == 'subv')
-            $destinataire = 'subventions@undessens.fr';
+            $destinataire = 'buro@undessens.fr';
         else if($_POST['category'] == 'part')
-			$destinataire = 'partenariats@undessens.fr';
+			$destinataire = 'buro@undessens.fr';
 		else if ($_POST['category'] == 'autre')
-			$destinataire = 'contact@undessens.fr';
+			$destinataire = 'buro@undessens.fr';
 }
 else{ // On envoie à l'adresse par défaut
     $destinataire = 'contact@undessens.fr';
