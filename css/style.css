@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #f3882a;
   outline: none;
   text-decoration: none;
 }
@@ -44,7 +44,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #404040;
 }
 
 .main-page {
@@ -90,13 +90,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #e0072f;
+  background: #f3882a;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  background: #f3882a;
   color: #fff;
 }
 
@@ -159,7 +159,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(16, 21, 34, 0.98);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -269,7 +269,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   /* color: rgba(202, 206, 221, 0.8); */
-  color: #875426;
+  color: #f3882a;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -344,7 +344,7 @@ h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #060c22;
+  color: #4f4f4f;
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -790,7 +790,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers-details .details .social a {
   background: #e9edfb;
-  color: #112363;
+  color: #404040;
   line-height: 1;
   display: inline-block;
   text-align: center;
@@ -810,7 +810,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details p {
-  color: #112363;
+  color: #404040;
   font-size: 15px;
   margin-bottom: 10px;
 }
@@ -840,7 +840,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #404040;
   color: #fff;
   padding: 10px 100px;
 }
@@ -902,14 +902,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  color: #4f4f4f;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: #5c5c5c;
   margin-bottom: 0;
 }
 
@@ -1015,7 +1015,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels a {
-  color: #152b79;
+  color: #404040;
 }
 
 #hotels a:hover {
@@ -1421,7 +1421,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #e0072f;
+  background: #404040;
 }
 
 /*--------------------------------------------------------------
@@ -1436,7 +1436,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #101522;
   padding: 60px 0 30px 0;
 }
 
@@ -1629,7 +1629,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(6, 12, 34, 0.98);
+    /* background: rgba(6, 12, 34, 0.98); */
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
