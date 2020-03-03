@@ -306,7 +306,7 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a {
-  color: #fff;
+  color: #fff !important;
   /* background: #f3882a; */
   background: #f3882a;
   padding: 7px 22px;
@@ -319,6 +319,10 @@ h6 {
   margin-top: 2px;
   line-height: 1;
   font-size: 13px;
+}
+
+#checkout-button > a:nth-child(1) {
+  color: #fff !important;
 }
 
 .nav-menu li.buy-tickets a:hover {
@@ -476,7 +480,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/background-2.png) top center;
+  background: url(../img/background.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
